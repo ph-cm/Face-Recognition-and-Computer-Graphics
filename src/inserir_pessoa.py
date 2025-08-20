@@ -25,7 +25,7 @@ caminho_imagem = input("Caminho da imagem: ")
 
 # Verificar se arquivo existe
 if not os.path.exists(caminho_imagem):
-    print("❌ Arquivo de imagem não encontrado!")
+    print("Arquivo de imagem não encontrado!")
     conn.close()
     exit()
 
